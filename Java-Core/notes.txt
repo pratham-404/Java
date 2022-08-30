@@ -1,0 +1,83 @@
+Java => Widely used for enterprise applications, android applications & complex web applications
+
+Syntax, Basic constructs(conditionals, loops, functions), OOP's, working with files, databases and multithreading
+frameworks => Spring, Hibernate
+
+Source File(src) --> Compiler(javac) --> Byte-Code --> JVM(Java Virtual Maachine) --> OS
+
+Variables => Containers that contain Data
+
+Primitive Data Types:
+keyword         Size(byte)       
+char                2
+
+byte                1
+short               2
+int                 4
+float               4
+long                8
+double              8(All decimal values have default datatype as double)
+
+boolean             
+
+typecasting i.e higher to lower => explicit typecasting, lower to higher => implicit typecasting
+byte -> short -> int -> float -> double -> long
+            char->|
+
+naming convention in java(CamelCase/camelCase rule) => make code more readable
+1) Interface(Adjective) Eg. Readable
+2) Class(Noun) Eg. Person, HashMap
+3) Method(Verb) Eg. actionPerformed
+4) variable Eg. stockPrice
+5) CONSTANT Eg. MAX_PRICE
+
+arithmetic operators, short-hand operators, pre/post increment
+
+conditionals(if, if-else, ternary, switch-case)
+
+iterations(while loop, do-while loop, for loop)
+break & continue statements
+
+Classes & Objects => class: blue print of objects(defines structure and working of object)
+class_name object_name = new class_name(); // new object_name object is created of class_name
+
+constructors => default, parmetrized 
+Method Overloading/ Constructor Overloading
+
+Static Methods/Fields
+
+InnerClass
+
+for-each loop => used with arrays
+
+File Sequence: 
+    HelloWorld.java
+    Variables.java
+    Operators.java
+    Conditionals.java
+    Iteration.java
+    Object.java
+    MethodOverloading.java
+    Static.java
+    InnerClass.java
+    Arrays.java
+    VarArgs.java
+    Inheritance.java
+    MethodOverriding.java
+    Encapsulation.java
+    WrapperClasses.java
+    AbstractKeyword.java
+    FinalKeyword.java
+    Interfaces.java
+    AnonymousClass.java
+    InterfaceTypes.java
+    DefaultInterface.java
+    pratham/code/Package.java
+    AccessModifiers.java
+    ExceptionHandling_try_catch.java
+    ExceptionHandling_thorws.java
+    ExceptionHandling_user_defined.java => BhaiException.java
+    IO_scanner.java
+    MultiThreading.java
+    ThreadPriority.java
+    THreadSyncronization

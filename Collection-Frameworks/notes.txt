@@ -1,0 +1,52 @@
+Collection Framework => A Java Framework that contains classes & interfaces for Data Structures & Algorithms
+
+Collection Interface
+    1. List Interface  --> Class --> ArrayList, LinkedList, Stack
+    2. Set Interface   --> Class --> HashSet LinkedHashSet, TreeSet
+    3. Queue Interface --> Class --> ArrayDeque, LinkedList, PriorityQueue
+
+Map Interface --> Class --> HashMap, TreeMap, LinkedHashMap
+
+Iterator Interface
+
+
+Data-Structure                  Syntax                                                                                         import                                                           Imp Methods
+Array                           int arr[] = new int[10];                                                                       -                                                                -
+Dynamic-Array                   ArrayList<Integer> arrList = new ArrayList<>();                                                java.util.ArrayList                                              add(e), add(i,e), addAll(c), addAll(i,c), get(i), set(i,e), conctains(e), size(), remove(i), remove(Integer.valueOf(e)), clear()
+
+LinkedList                      LinkedList<Integer> ll = new LinkedList<>();                                                   java.util.LinkedList                                             add(e), add(i,e), addAll(c), addAll(i,c), get(i), set(i,e), conctains(e), size(), remove(i), remove(Integer.valueOf(e)), clear()
+
+Stack                           Stack<Integer> st = new Stack<>();                                                             java.util.Stack;                                                 push(e). pop(), peek()
+Queue                           Queue<Integer> q = new LinkedList();                                                           java.util.Queue; java.util.LinkedList;                           offer(e), poll(), peek()
+
+Deque                           ArrayDeque<Integer> adq = new ArrayDeque<>();                                                  java.util.ArrayDeque;                                            offer(e), *offerFirst(e), offerLast(e), poll(), pollFirst(), *pollLast(), peek(), peekFirst(), *peekLast()
+
+PriorityQueue(Min-Heap)         PriorityQueue<Integer> pq = new PriorityQueue<>();                                             java.util.PriorityQueue;                                         offer(e), poll(), peek()
+PriorityQueue(Max-Heap)         PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());                    java.util.PriorityQueue; import java.util.Comparator;            offer(e), poll(), peek()
+
+HashSet                         HashSet<Integer> sh = new HashSet<>();                                                         java.util.HashSet;                                               add(e), remove(e), contains(e), isEmpty(), size(), clear()
+LinkedHashSet                   LinkedHashSet<Integer> sll = new LinkedHashSet<>();                                            java.util.LinkedHashSet;                                         add(e), remove(e), contains(e), isEmpty(), size(), clear()
+TreeSet                         TreeSet<Integer> st = new TreeSet<>();                                                         java.util.TreeSet;                                               add(e), remove(e), contains(e), isEmpty(), size(), clear()
+
+HashMap                         HashMap<Integer,String> hm = new HashMap<>();                                                  java.util.HashMap; java.util.Map;                                put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear             
+LinkedHashMap                   LinkedHashMap<Integer, String> llm = new LinkedHashMap<>();                                    java.util.LinkedHashMap; java.util.Map;                          put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear
+Treemap                         TreeMap<Integer, String> tm = new TreeMap<>();                                                 java.util.TreeMap; java.util.Map;                                put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear
+
+e -> element, i -> index, c -> collection, k -> key, v -> value
+
+StudentSet() --> unique roll_no, may have same names
+
+Array Class
+import java.util.Arrays;
+Printing => Arrays.toString(nums);
+Searching(returns i) => Arrays.binarySeach(arr,e);
+Sorting => Arrays.sort();
+Filling array with same value => Arrays.fill(arr,e);
+
+CollectionS Class
+import java.util.Collections;
+Min-element -> Collections.min(c)
+Max-element -> Collections.max(c)
+Frequency -> Collections.frequency(c,e)
+Sort(Ascending) -> Collections.sort(c);
+Sort(Descending) -> Collections.sort(c, Comparator.reverseOrder());
