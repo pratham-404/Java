@@ -15,7 +15,7 @@ class Emp {
         System.out.println("Constructor called");
     }
     
-    // static block allocates mempry only once in the class loader memory
+    // static block allocates memory only once in the class loader memory
     static{ // executed when we load a class => doesnt matter with no. of objects, class will load only once
         ceo = "Pratham";
         System.out.println("Static-Block loaded");

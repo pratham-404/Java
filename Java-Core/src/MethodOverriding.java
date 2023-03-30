@@ -6,7 +6,7 @@ class Parent {
 
 class Child extends Parent {
     // method display() of Parent Class is overriden by Child Class
-    @Override // no afffect on code but a GOOD Practice
+    @Override // no affect on code but a GOOD Practice
     public void display() {
         // super.display(); // accessing display() method of Parent Class
         System.out.println("Child: Display");

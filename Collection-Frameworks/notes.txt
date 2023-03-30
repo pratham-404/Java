@@ -30,7 +30,7 @@ TreeSet                         TreeSet<Integer> st = new TreeSet<>();          
 
 HashMap                         HashMap<Integer,String> hm = new HashMap<>();                                                  java.util.HashMap; java.util.Map;                                put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear             
 LinkedHashMap                   LinkedHashMap<Integer, String> llm = new LinkedHashMap<>();                                    java.util.LinkedHashMap; java.util.Map;                          put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear
-Treemap                         TreeMap<Integer, String> tm = new TreeMap<>();                                                 java.util.TreeMap; java.util.Map;                                put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear
+TreeMap                         TreeMap<Integer, String> tm = new TreeMap<>();                                                 java.util.TreeMap; java.util.Map;                                put(k,v), putIfAbsent(k,v), containsKey(k), containsValue(v), entrySet(), keySet(), values(), remove(k), remove(k,v), clear
 
 e -> element, i -> index, c -> collection, k -> key, v -> value
 
