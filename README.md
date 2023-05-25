@@ -68,3 +68,7 @@ The `JDBC` folder contains notes on Java Database Connectivity (JDBC). It covers
 ## Contribution
 
 If you find any errors or have suggestions for improving the content, please feel free to contribute to this repository by submitting a pull request. Your contributions are greatly appreciated.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
